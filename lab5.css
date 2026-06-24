@@ -1,0 +1,33 @@
+/* ID Selector */
+#main-title {
+    color: navy;
+    text-decoration: underline;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: yellow;
+    font-style: italic;
+}
+
+/* Pseudo-class Selector */
+ul li:first-child {
+    font-weight: bold;
+}
+
+/* Hover Selector */
+a:hover {
+    color: red;
+}
+
+/* Pseudo-element Selector */
+p::first-letter {
+    font-size: 24px;
+    color: green;
+}
+
+/* Element Selector */
+img {
+    border: 2px solid black;
+    width: 200px;
+}
